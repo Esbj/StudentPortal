@@ -1,0 +1,75 @@
+body{
+  background-color: skyblue;
+}
+main{
+  background-color: whitesmoke;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+article:first-of-type {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+form {
+  border: 1px solid darkorchid;
+  width: fit-content;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  justify-content: space-between;
+}
+
+form input {
+  width: 50%;
+  background-color: lightgray;
+  border: none;
+}
+
+input[type="file"] {
+  width: 100%;
+}
+
+input[type="submit"] {
+  border-radius: 0.5em;
+  border: 1xp solid darkblue;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#student-buttons {
+  display: grid;
+  grid-template-columns: 30px 100px;
+}
+
+#student-buttons button {
+}
+
+.student-info {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: left;
+  gap: 1rem
+}
+
+img {
+  max-width: 300px;
+  max-height: 400px;
+}
+
+.hidden{
+  display: none;
+}
+
+
+
+
+
+

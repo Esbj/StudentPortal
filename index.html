@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Student portal</h1>
+      <article>
+        <section>
+          <h2>Students</h2>
+          <div id="student-buttons">
+            
+          </div>
+        </section>
+
+        <section>
+          <h2>Add Student</h2>
+          <form id="add-student">
+            <label for="first-name">Förnamn</label>
+            <input type="text" name="first-name" id="first-name" />
+            <label for="last-name">Efternamn</label>
+            <input type="text" name="last-name" id="last-name" />
+            <label for="birth-year">Födelseår</label>
+            <input type="number" name="birth-year" id="birth-year" />
+            <label for="subjects">Ämnen</label>
+            <input type="text" name="subjects" id="subjects" />
+            <label for="image">Ladda upp bild</label>
+            <input type="file" name="image" id="image" value="Ladda upp bild" />
+            <input type="submit" value="Add student" />
+          </form>
+        </section>
+      </article>
+
+      <article>
+        <h2>Student info</h2>
+        <div class="student-info">
+          <!-- Här ligger bilden -->
+          <div class="student-info-buttons">
+            <!-- Här ligger redigeraknapparna -->
+          </div>
+          <section class="student-data">
+            <!-- Här ligger p taggarna -->
+          </section>
+          
+        </div>
+      </article>
+    </main>
+    <script src="student.js"></script>
+  </body>
+</html>
